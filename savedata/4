@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{psgo} % version 0.14 or newer
+\pagestyle{empty}
+\begin{document}
+
+\section*{4}
+\begin{psgoboard}[13]
+\setcounter{gomove}{0}
+\move{g}{11} % B 1
+\move{d}{10} % W 2
+\move{e}{7} % B 3
+\move{j}{6} % W 4
+\move{e}{5} % B 5
+\move{h}{3} % W 6
+\move{l}{6} % B 7
+\move{l}{9} % W 8
+\move{j}{11} % B 9
+\move{e}{11} % W 10
+\move{d}{9} % B 11
+\move{c}{7} % W 12
+\move{c}{4} % B 13
+\move{d}{2} % W 14
+\move{g}{5} % B 15
+\move{g}{8} % W 16
+\end{psgoboard}
+
+\end{document}

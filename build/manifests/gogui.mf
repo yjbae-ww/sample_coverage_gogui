@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Created-By: 1.8.0_131-b11 (Oracle Corporation)
+Main-Class: net.sf.gogui.gogui.MainWrapper
+Built-By: Bugstone
+Build-Date: 2019-06-12
+Class-Path: quaqua.jar
+

@@ -1,0 +1,31 @@
+
+D:\backup\software\open_source\JAVA\gogui>rm -rf instr 
+
+D:\backup\software\open_source\JAVA\gogui>java -jar D:\backup\cover-agent\bin\tm-java-2.5.0-SNAPSHOT-exec.jar -cp bin -sl source.list -ip instr -trace 
+Calculate total class count...
+Start instrument...
+(007/593)  success : [fa9c7d6ca5811a04] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\TimeSettings.class
+(014/593)  success : [39cf30f41a8405f6] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\StringInfoColor.class
+(015/593)  success : [05fca4661b54acbf] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\StringInfo.class
+(016/593)  success : [2e636fce8ac3d4eb] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\NodeUtil.class
+(018/593)  success : [a80f522ad6e2fc17] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\Node.class
+(020/593)  success : [b9e041cc4179fe60] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\SgfProperties.class
+(021/593)  success : [bdeaa066d66a0df6] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\MarkType.class
+(022/593)  success : [7362ba50aa8bd23a] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\BoardUpdater.class
+(023/593)  success : [3ce05ff214623570] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\Game.class
+(024/593)  success : [279b46af037ef049] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\Clock$1.class
+(026/593)  success : [5b781bbf6add3cb7] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\Clock$SystemTimeSource.class
+(027/593)  success : [54740442ea24bace] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\Clock$TimeRecord.class
+(029/593)  success : [01aea841e15175ce] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\Clock.class
+(030/593)  success : [036a6ad37fb25ad9] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\GameInfo.class
+(031/593)  success : [c2fdca3c87a37661] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\I18n.class
+(034/593)  success : [a387b31114e62645] D:\backup\software\open_source\JAVA\gogui\bin\net\sf\gogui\game\GameTree.class
+End instrument - Process time : 2785(millis)
+** Success  Count : 16
+** Failure  Count : 0
+** Ignored  Count : 577
+** Excluded Count : 0
+
+D:\backup\software\open_source\JAVA\gogui>rem java -jar D:\backup\cover-agent\bin\tm-java-2.5.0-SNAPSHOT-exec.jar -cp bin -sp src -ip instr -trace -scf GoGui 
+
+D:\backup\software\open_source\JAVA\gogui>rem java -jar D:\backup\cover-agent\bin\tm-java-2.5.0-SNAPSHOT-exec.jar -cp bin -sp src -ip instr -trace -no-ii 
